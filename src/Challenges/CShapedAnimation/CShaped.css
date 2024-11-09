@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3,100px);
+  grid-template-rows: repeat(3,100px);
+  gap:20px;
+  background-color: blue;
+  padding:20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border: 1px solid black;
+  font-weight: bold;
+  cursor:pointer;
+}
+
+.black {
+  background-color: black;
+  color:white;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
